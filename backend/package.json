@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js --exec"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "*",
+    "mongodb": "^5.5.0",
+    "multer": "^1.4.5-lts.1",
+    "redis": "*"
+  },
+  "devDependencies": {
+    "nodemon": "*"
+  }
+}
